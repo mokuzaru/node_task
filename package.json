@@ -1,0 +1,26 @@
+{
+  "name": "reto-hapi",
+  "version": "1.0.0",
+  "description": "Items",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonyinuma/node_task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonyinuma/node_task/issues"
+  },
+  "homepage": "https://github.com/tonyinuma/node_task#readme",
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
