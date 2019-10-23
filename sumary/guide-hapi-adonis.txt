@@ -1,0 +1,18 @@
+HAPI JS
+Caracteristicas:
+- Tipo: Rich and modular
+- Peso: 1.7MB
+- Build Rest API: Sí
+- Build Web: Requiere de un alibreria adicional
+- Curva de aprendizaje (Bajo/Intermedio)
+- Soporte de ES6: Sí
+- Antiguedad: 8
+- Comunidad: +10469
+- Plugins: +2288
+
+ADONIS JS
+Caracteristicas:
+- Se instala con un CLI
+- Tipo: Sistema MVC
+- Genera un base de proyecto con modelos, migraciones, factorys y seeds.
+- Validaciones

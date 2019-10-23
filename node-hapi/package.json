@@ -1,0 +1,14 @@
+{
+  "name": "hapi",
+  "version": "1.0.0",
+  "description": "node uses Hapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aydee-qm",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^18.1.0"
+  }
+}
