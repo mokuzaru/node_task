@@ -5,13 +5,6 @@ const server = hapi.server({
     port: 8000
 });
 
-//routes
-
-
-// server.get('/item', (res, req, next) => {
-//     res.
-// })
-
 //server
 
 const start = async () => {
@@ -28,11 +21,8 @@ const start = async () => {
         console.log('Server running at:', server.info.uri);
     }
     catch (err) {
-        console.log('error al inicar hapi');
+        console.log('error al iniciar hapi');
     }
 };
 start();
 
-// server.listen('port', ()=> {
-//     console.log('Server on port 4000');
-// })
