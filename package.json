@@ -1,0 +1,25 @@
+{
+  "name": "node_task",
+  "version": "1.0.0",
+  "description": "Items",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MAYTESI/node_task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MAYTESI/node_task/issues"
+  },
+  "homepage": "https://github.com/MAYTESI/node_task#readme",
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
