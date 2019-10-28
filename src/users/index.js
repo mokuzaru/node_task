@@ -1,4 +1,5 @@
-const handlerUsers = require('./users/handleUsers')
+const handlerUsers = require('./handlerUsers')
+
 
 const getUsers = {
   method:'GET',

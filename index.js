@@ -1,5 +1,9 @@
 const Hapi = require('@hapi/hapi');
-const {getUsers, postUsers} = require('./controllers')
+const {getUsers, postUsers} = require('./src/users')
+const { 
+  getProducts,
+  postProducts,
+  getByIdProduct} = require('./src/products')
 
 const init = async () => {
 
@@ -8,10 +12,14 @@ const init = async () => {
         host: 'localhost'
     });
 
-    //handleRoutes
+    //handlerRoutes
 
     server.route(getUsers)
     server.route(postUsers)
+    server.route(getProducts)
+    server.route(postProducts)
+    server.route(getByIdProduct)
+
 
     await server.start();
     console.log('Server running on %s', server.info.uri);
