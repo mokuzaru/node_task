@@ -30,3 +30,7 @@ Grupo 4 hapi:
 
 Nota:
 A<B<C<D
+
+# Tarea 2 para rezagados
+
+Para las personas que no realizarán la tarea 2 el miercoles 23. Pueden formar grupos de 2 para realizar la tarea, con la diferencia que tendrán que realizar un archivo de documentación (README) para explicar los detalles de su repo.
