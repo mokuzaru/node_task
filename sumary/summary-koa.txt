@@ -1,0 +1,22 @@
+Koa.js está diseñado como un framework ligero y flexible para Node.js.Además 
+usa funciones asíncronas, esto le da ventaja sobre los callbacks. Por defecto,
+Koa no viene con ningún middlewares. Eso hace que Koa sea muy minimalista y elegante.
+
+La mayoría de los frameworks proporcionan scripts, imágenes, páginas HTML y otros recursos del sitio web a través de
+diferentes rutas. Pero el módulo de Koa.js no admite rutas. Nosotros tenemos que usar Koa-router para crear múltiples rutas 
+para varios recursos del sitio web.
+
+Para Handlear los errores al momento de estar creando nuestra API, nosotros podemos usar un simple ‘try/catch’ sin escribir
+código adicional. Koa.js permite a los desarrolladores customizar simplemente los error handling, haciendo una
+configuracion por defecto.
+
+Una comparación descriptiva en resumen seria de la siguiente manera.
+
+- Es minimalista y modular
+- Peso: 2mb
+- Curva de aprendisaje: Bajo,
+- Soporte de ECMAScript 6 (sí)
+- Años de antiguedad (5)
+- Build Rest API (Sí)
+- Build web (Requiere de una libreria adicional)
+- Routing (No)
