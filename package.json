@@ -1,0 +1,23 @@
+{
+  "name": "node_task",
+  "version": "1.0.0",
+  "description": "Items",
+  "main": "idex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valeriavalles/node_task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valeriavalles/node_task/issues"
+  },
+  "homepage": "https://github.com/valeriavalles/node_task#readme",
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0",
+    "hapi": "^18.1.0"
+  }
+}
